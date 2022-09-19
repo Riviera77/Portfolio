@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/*font-family: 'Pacifico',cursive;*/
+@font-face {
+  font-family: 'Pacifico';
+  src: url(font/pacifico-regular.ttf);
+}
