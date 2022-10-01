@@ -345,9 +345,30 @@
               <div class="col-12 col-md-5">
                 <img src="img/grab-a-coffee2.jpg" alt="Image d'une tasse de café" width="100%">
               </div>
+
               <div class="col-12 offset-md-1 col-md-6">
-                <div class="bg-secondary h-100 w-100 py-5">
-                </div>
+                <form action="" class="row gy-4">
+                  <div class="col-6">
+                    <label for="prenom" class="form-label">Prénom</label>
+                    <input type="text" class="form-control" id="prenom" name="prenom">
+                  </div>
+                  <div class="col-6">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="nom" name="nom">
+                  </div>
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="col-12">
+                    <textarea name="message" id="message" rows="3" class="form-control"></textarea>
+                    <label class="form-label" for="message">Message</label>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
